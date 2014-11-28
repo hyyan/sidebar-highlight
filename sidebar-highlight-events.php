@@ -18,6 +18,6 @@ interface Hyyan_Sidebar_Highlight_Events {
     /**
      * Filter to add css classes to the sidebar wrapper
      */
-    const WRAPPER_CLASSESS = 'sidebar-hightlight-wrapper-classes';
+    const WRAPPER_CLASSESS = 'Hyyan\Sidebar_Highlight.Wrapper_Classes';
 
 }
