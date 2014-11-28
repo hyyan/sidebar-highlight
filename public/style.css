@@ -1,0 +1,47 @@
+/*
+This file is part of the hyyan/sidebar-highlight  package.
+(c) Hyyan Abo Fakher <tiribthea4hyyan@gmail.com>
+
+For the full copyright and license information, please view the LICENSE
+file that was distributed with this source code.
+*/
+/* 
+    Created on : Nov 28, 2014, 7:30:07 AM
+    Author     : Hyyan Abo Fakher
+*/
+
+.hyyan-sidebar-highlight{
+    position: relative;
+    outline: thin dotted gray;
+    transition: all 0.40s ease-in-out;
+    padding: 2px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    *zoom: 1;
+}
+
+.hyyan-sidebar-highlight:before,
+.hyyan-sidebar-highlight:after{
+    content: " ";
+    display: table; 
+}
+.hyyan-sidebar-highlight:after{
+    clear: both;
+}
+
+.hyyan-sidebar-highlight:hover{
+    outline: 2px dotted gray;
+    -webkit-box-shadow: 2px 2px 26px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 2px 2px 26px 0px rgba(204,204,204,1);
+    box-shadow: 2px 2px 26px 0px rgba(204,204,204,1);
+}
+
+.hyyan-sidebar-highlight-name{
+    margin-bottom: 20px;
+    transition: all 0.40s ease-in-out; 
+    padding: 5px;
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    text-align: center;
+
+}
