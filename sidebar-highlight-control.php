@@ -31,7 +31,7 @@ class Hyyan_Sidebar_Highlight_Controll {
 
         // section
         $manager->add_section('hyyan_sidebar_highlight_section', array(
-            'title' => __('Sidebar Hightlight', HYYAN_SLIDER_HIGHLIGHT_DOMAIN),
+            'title' => __('Sidebars Highlight', HYYAN_SLIDER_HIGHLIGHT_DOMAIN),
         ));
 
         // enable , disable checkbox
@@ -41,7 +41,7 @@ class Hyyan_Sidebar_Highlight_Controll {
         $manager->add_control('hyyan_sidebar_highlight_on', array(
             'type' => 'checkbox'
             , 'label' => __('Enable.', HYYAN_SLIDER_HIGHLIGHT_DOMAIN)
-            , 'description' => __('Disable sidebar highlight to get real preview', HYYAN_SLIDER_HIGHLIGHT_DOMAIN)
+            , 'description' => __('Disable sidebars highlight to get real preview', HYYAN_SLIDER_HIGHLIGHT_DOMAIN)
             , 'section' => 'hyyan_sidebar_highlight_section'
         ));
     }
