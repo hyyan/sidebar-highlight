@@ -7,6 +7,7 @@
 
 Small Wordpress plugin to hightlight all sidebars when wordpress customize mode is enabled
 
+[![Showcase](http://img.youtube.com/vi/bx7YvvKONLk/hqdefault.jpg)](https://www.youtube.com/watch?v=bx7YvvKONLk)
 
 ## How to install
 
