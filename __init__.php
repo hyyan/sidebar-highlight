@@ -18,6 +18,21 @@
 if (!defined('ABSPATH'))
     exit('restricted access');
 
-require_once __DIR__.'/sidebar-highlight.php';
+/** text domain */
+define('HYYAN_SLIDER_HIGHLIGHT_DOMAIN', 'hyyan_slider_highligh');
 
+require_once __DIR__ . '/sidebar-highlight-control.php';
+require_once __DIR__ . '/sidebar-highlight.php';
+
+
+/** support translation */
+add_action('plugins_loaded', function() {
+    load_plugin_textdomain(
+            HYYAN_SLIDER_HIGHLIGHT_DOMAIN
+            , false
+            , trailingslashit(basename(dirname(__FILE__))) . 'languages/'
+    );
+});
+
+new Hyyan_Sidebar_Highlight_Controll();
 new Hyyan_Sidebar_Highlight();

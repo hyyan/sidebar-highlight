@@ -24,7 +24,7 @@ class Hyyan_Sidebar_Highlight {
         add_filter('is_active_sidebar', array($this, 'activateSidebars'));
         add_action('dynamic_sidebar_before', array($this, 'before'));
         add_action('dynamic_sidebar_after', array($this, 'after'));
-        add_action('customize_preview_init', array($this, 'assets'));
+        add_action('wp_enqueue_scripts', array($this, 'assets'));
     }
 
     /**
@@ -54,7 +54,7 @@ class Hyyan_Sidebar_Highlight {
         if (empty($wp_registered_sidebars) || !isset($wp_registered_sidebars[$id]))
             return false;
 
-        printf('<div class="%s"><div class="hyyan-sidebar-highlight-name">%s</div>'
+        printf('<div class="%s" title="%2$s"><div class="hyyan-sidebar-highlight-name">%2$s</div>'
                 , 'hyyan-sidebar-highlight ' . implode(' ', $classes)
                 , $wp_registered_sidebars[$id]['name']
         );
@@ -72,9 +72,15 @@ class Hyyan_Sidebar_Highlight {
      * Registe the plugin assets
      */
     public function assets() {
+
+        if (false === static::isPreview())
+            return;
+
         $uri = plugin_dir_url(__FILE__);
         wp_enqueue_style('hyyan-sidebar-highlight-css'
                 , $uri . '/public/style.css'
+                , array()
+                , uniqid() // no cache
         );
     }
 
@@ -99,7 +105,7 @@ class Hyyan_Sidebar_Highlight {
      */
     public static function isPreview() {
         global $wp_customize;
-        return ( isset($wp_customize) && $wp_customize->is_preview() );
+        return ( isset($wp_customize) && $wp_customize->is_preview() ) && hyyan_is_sidebar_highlight();
     }
 
 }
