@@ -19,7 +19,7 @@ if (!defined('ABSPATH'))
     exit('restricted access');
 
 /** text domain */
-define('HYYAN_SLIDER_HIGHLIGHT_DOMAIN', 'hyyan_slider_highligh');
+define('HYYAN_SLIDER_HIGHLIGHT_DOMAIN', 'hyyan-sidebar-highlight');
 
 require_once __DIR__ . '/sidebar-highlight-control.php';
 require_once __DIR__ . '/sidebar-highlight.php';
