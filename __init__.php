@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  * 
  * Plugin Name: Hyyan Sidebar Highlight
- * Description: A light plugin to highlight all sidebars in any theme 
+ * Description: Small Wordpress plugin to hightlight all sidebars when wordpress customize mode is enabled 
  * Author: Hyyan Abo Fakher
  * Author URI: https://github.com/hyyan
  * GitHub Plugin URI: hyyan/sidebar-highlight

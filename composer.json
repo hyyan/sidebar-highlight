@@ -1,6 +1,6 @@
 {
     "name": "hyyan/sidebar-highlight",
-    "description": "A light plugin to highlight all sidebars in any theme",
+    "description": "Small Wordpress plugin to hightlight all sidebars when wordpress customize mode is enabled",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [

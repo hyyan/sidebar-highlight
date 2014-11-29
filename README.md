@@ -5,7 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/hyyan/sidebar-highlight/downloads.svg)](https://packagist.org/packages/hyyan/sidebar-highlight)
 [![License](https://poser.pugx.org/hyyan/sidebar-highlight/license.svg)](https://packagist.org/packages/hyyan/sidebar-highlight)
 
-A light wordpress plugin to highlight all sidebars in any theme
+Small Wordpress plugin to hightlight all sidebars when wordpress customize mode is enabled
 
 
 ## How to install
@@ -22,7 +22,7 @@ extract it there.
 
 ## How to use
 
-Just go to customize page and the plugin will be activate be default , you can
+Just go to customize page and the plugin will be active be default , you can
 also disable it from customize page to go back to real preview.
 
 ## Contributing
