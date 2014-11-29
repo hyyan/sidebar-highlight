@@ -55,7 +55,7 @@ class Hyyan_Sidebar_Highlight {
             return false;
 
         printf('<div class="%s" title="%2$s"><div class="hyyan-sidebar-highlight-name">%2$s</div>'
-                , 'hyyan-sidebar-highlight ' . implode(' ', $classes)
+                , 'hyyan-sidebar-highlight ' . implode(' ', (array) $classes)
                 , $wp_registered_sidebars[$id]['name']
         );
     }
@@ -78,7 +78,7 @@ class Hyyan_Sidebar_Highlight {
 
         $uri = plugin_dir_url(__FILE__);
         wp_enqueue_style('hyyan-sidebar-highlight-css'
-                , $uri . '/public/style.css?vn='.time()
+                , $uri . '/public/style.css?vn=' . time()
                 , array()
                 , uniqid() // no cache
         );
