@@ -58,8 +58,8 @@ ways you can contribute:
 
 == Screenshots ==
 
-1. Empty Sidebars without using the plugin
-2. Sidebars are highlighted after using the plugin
+1. Sidebars are highlighted after using the plugin
+2. Empty Sidebars without using the plugin
 
 == Changelog ==
 
