@@ -12,10 +12,22 @@ Small Plugin to hightlight all sidebars when wordpress customize mode is enabled
 
 **How to use**
 
-Just go to customize page and the plugin will be active be default , you can
+Just go to customize page and the plugin will be active by default , you can
 also disable it from customize page to go back to real preview.
  
 [youtube https://www.youtube.com/watch?v=bx7YvvKONLk]
+
+= Contributing =
+
+Everyone is welcome to help contribute and improve this plugin. There are several 
+ways you can contribute:
+
+* Reporting issues (please read [issue guidelines](https://github.com/necolas/issue-guidelines))
+* Suggesting new features
+* Writing or refactoring code
+* Fixing [issues](https://github.com/hyyan/sidebar-highlight/issues)
+
+
 
 == Installation ==
 
@@ -45,16 +57,6 @@ filter which accept an array of classes to be added to the sidebar wrapper
 = Can I switch back to real preview without sidebar highlighting ? =
 
 Yes you can by using the `Sidbars Highlight` section in the customize panel
-
-== Contributing ==
-
-Everyone is welcome to help contribute and improve this plugin. There are several 
-ways you can contribute:
-
-* Reporting issues (please read [issue guidelines](https://github.com/necolas/issue-guidelines))
-* Suggesting new features
-* Writing or refactoring code
-* Fixing [issues](https://github.com/hyyan/sidebar-highlight/issues)
 
 == Screenshots ==
 

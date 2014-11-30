@@ -21,7 +21,7 @@ extract it there.
 
 ## How to use
 
-Just go to customize page and the plugin will be active be default , you can
+Just go to customize page and the plugin will be active by default , you can
 also disable it from customize page to go back to real preview.
 
 ## Contributing
