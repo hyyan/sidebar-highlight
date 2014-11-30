@@ -3,7 +3,7 @@ Contributors: hyyan
 Tags: sidebar,sidebar highlight,customize , customizer
 Requires at least: 3.0.1
 Tested up to: 4.0.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: MIT
 
 Small Plugin to hightlight all sidebars when wordpress customize mode is enabled

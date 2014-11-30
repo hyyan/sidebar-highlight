@@ -11,7 +11,7 @@
  * Description: Small Wordpress plugin to hightlight all sidebars when wordpress customize mode is enabled 
  * Author: Hyyan Abo Fakher
  * Author URI: https://github.com/hyyan
- * Version: 0.1
+ * Version: 0.2
  * GitHub Plugin URI: hyyan/sidebar-highlight
  * License: MIT License
  */
