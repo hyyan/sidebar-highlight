@@ -1,9 +1,9 @@
 === Sidebar Highlight ===
 Contributors: hyyan 
-Tags: sidebar,sidebar highlight,customize , customizer
+Tags: sidebar,sidebar highlight,customize , customizer,widget,widget highlight,theme customizer,theme customize
 Requires at least: 3.0.1
-Tested up to: 4.0.1
-Stable tag: 0.2
+Tested up to: 4.1.0
+Stable tag: 0.3
 License: MIT
 
 Small Plugin to hightlight all sidebars when wordpress customize mode is enabled
@@ -64,6 +64,9 @@ Yes you can by using the `Sidbars Highlight` section in the customize panel
 2. Empty Sidebars without using the plugin
 
 == Changelog ==
+
+= 0.3 =
+* Tested on wordpress 4.1.0
 
 = 0.1 =
 * Initial commit
